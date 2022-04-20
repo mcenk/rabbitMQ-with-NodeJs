@@ -1,0 +1,23 @@
+{
+  "name": "rabbitmq-with-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "publisher":"node publisher.js",
+    "consumer" : "node consumer.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcenk/rabbitMQ-with-NodeJs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcenk/rabbitMQ-with-NodeJs/issues"
+  },
+  "homepage": "https://github.com/mcenk/rabbitMQ-with-NodeJs#readme",
+  "dependencies": {
+    "amqplib": "^0.8.0"
+  }
+}
